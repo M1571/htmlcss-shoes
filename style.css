@@ -27,16 +27,16 @@ img {
 }
 
 .btn {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     display: block;
     border-radius: 50%;
     box-shadow: 1px 1px 5px black;
     background: white;
     color: black;
     text-align: center;
-    text-decoration: none;
 }
 
 .red {
@@ -51,10 +51,24 @@ img {
     background: yellow;
 }
 
-#sh-1, #sh-2 h1 {
+#sh-1, #sh-2 {
     color: yellow;
 } 
 
-#sh-3 h1 {
+#sh-3 {
     color: green;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.wrap {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
